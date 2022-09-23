@@ -19,5 +19,5 @@ Tools added on the images:
 
 
 # Creating Image
+```oc new-app --strategy=docker --image="registry.fedoraproject.org/fedora:latest" https://github.com/levysantanna/netdebug.git --context-dir=/Fedora/```
 
-```oc new-app --strategy=docker --docker-image="registry.access.redhat.com/rhel7:latest" https://github.com/levysantanna/netdebug.git --context-dir=/RHEL/```
