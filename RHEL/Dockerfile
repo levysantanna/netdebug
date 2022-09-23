@@ -1,4 +1,4 @@
-FROM rhel7:latest
+FROM rhel:latest
 
 USER root
 RUN yum install -y bind-utils nmap iptraf-ng net-tools telnet wget links nc iperf3 ; chpasswd root:netdebug
